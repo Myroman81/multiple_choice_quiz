@@ -7,34 +7,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multiple Choice Quiz</title>
     <link rel="stylesheet" href="./assets/style.css">
+    
 </head>
 
 <body>
     <!--Start quiz button-->
-    <div class="btn"><button>Start Quiz<button< /div>
-
-                <!--Info box-->
-                <div class="Information">
-                    <div class=" " title"><span>Rules for Quiz Taking</span></div>
-                    <div class=" " list">
-                        <div class="info" 1. You have 75 seconds to complete the quiz.</div>
-                            <div class="info" 2. There are 8 questions in total.</div>
-                                <div class="info" 3. If a question is answered incorrectly, 5 seconds are deducted from
-                                    the timer.</div>
-                                    <div class="info" 4. Each question has 4 given answers. Choose the answer best
-                                        suited.</div>
-                                        <div class="info" 5. The test is finished when all questions are answered or the
-                                            timer reaches 0.</div>
-                                        </div>
-                                        <div class="buttons">
-                                            <button class="quit"> Exit</button>
-                                            <button class="restart">Continue</button>
-                                        </div>
-                                    </div>
-
-                                    <script src="./assets/script.js"></script>
-
-
-</body>
-
-</html>
+    <div class="strt_button"><button>Start Quiz<button></div>
+        
+        <!--Info box-->
+        <div class="information">
+            <div class="title"><span>Rules for Quiz Taking</span></div>
+            <div class="list">
+                <div class="info">1. You have 75 seconds to complete the quiz.</div>
+                <div class="info">2. There are 8 questions in total.</div>
+                <div class="info">3. If a question is answered incorrectly, 5 seconds are deducted from
+                    the timer.</div>
+                    <div class="info">4. Each question has 4 given answers. Choose the answer best
+                        suited.</div>
+                        <div class="info">5. The test is finished when all questions are answered or the
+                            timer reaches 0.</div>
+                        </div>
+                        <div class="buttons">
+                            <button class="quit">Exit</button>
+                            <button class="restart">Continue</button>
+                        </div>
+                    </div>
+                    <!--Quiz Box-->
+                    <div class="quiz_box">
+                        <header>
+                            <div class="title">
+                                Multiple Choice Quiz
+                            </div>
+                            <div class="timer">
+                                <div class="time_left">Time Remaining</div>
+                                <div class="timer_sec">75</div>
+                            </div>
+                            <div class="time_line"></div>
+                            
+                        </header>
+                    </div>
+                    <section class="question-container hide">
+                        <div class="question_text">
+                            <!--Via JS-->
+                            <h2 id="title">Question Title Placeholder</h2>
+                        </div>
+                        <div class="options">
+                            <!--Vis JS-->
+                            <p>Answer Set Placeholder</p>
+                        </div>
+                    </section>
+                    
+                    <footer>
+                        <div class="total_questions">
+                            
+                        </div>
+                        <button class="2nd_btn">Next Question</button>
+                    </footer>
+                </div>
+                <div class="results">
+                    <div class="completed_text">Congratulations! You completed the quiz!</div>
+                </div>
+                <div class="buttons">
+                    <button class="restart">Try again?</button>
+                    
+                </div>
+                <script type="text/javascript" src="./assets/script.js"></script>
+            </body>
+            
+            </html>
