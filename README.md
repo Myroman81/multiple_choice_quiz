@@ -8,5 +8,4 @@
 
 Live Link https://myroman81.github.io/multiple_choice_quiz/
 
-
-
+Screenshot https://github.com/Myroman81/multiple_choice_quiz/blob/main/assets/multquizss.png
